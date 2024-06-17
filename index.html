@@ -6,7 +6,7 @@
         async function insertEmployee() {
             const name = document.getElementById('name').value;
 
-            const response = await fetch('https://func-futurestage-test.azurewebsites.net/api/InsertEmployee', {
+            const response = await fetch('https://func-futurestage.azurewebsites.net/api/InsertEmployee', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
